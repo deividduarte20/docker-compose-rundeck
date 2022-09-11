@@ -1,3 +1,5 @@
 # Provê container com rundeck
-# docker-compose-rundeck
+
+## Para executar o container
+docker-compose up -d
 
