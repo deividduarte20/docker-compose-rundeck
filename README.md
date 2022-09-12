@@ -19,7 +19,7 @@ touch resources.xml
 
 
 ## Atribua o usuário rundeck como dono
-chown rundeck.rundeck /var/rundeck/projects/nome_projeto/etc/resources.xml
+chown rundeck:rundeck /var/rundeck/projects/nome_projeto/etc/resources.xml
 
 ## Reinicie o serviço
 service rundeckd restart
