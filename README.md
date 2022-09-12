@@ -13,11 +13,11 @@ cd /var/rundeck/projects/nome_projeto/etc
 touch resources.xml
 
 ## Insira o conteúdo abaixo no arquivo resources.xml e substitua o ip
-ˋˋˋ
+```
 <project>
 <node name="my-node" hostname="10.0.0.25" osArch="amd64" osFamily="unix" osName="Linux" osVersion="3.11.10-03111015-generic" username="rundeck"/>
 </project>
-ˋˋˋ
+```
 
 ## Atribua o usuário rundeck como dono
 chown rundeck:rundeck /var/rundeck/projects/nome_projeto/etc/resources.xml
