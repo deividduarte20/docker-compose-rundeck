@@ -3,6 +3,12 @@
 ## Para executar o container
 docker-compose up -d
 
+## Listar os containers em execução
+Docker ps
+
+## Entrando no container
+docker exec -it <ID DO CONTAINER> bash
+
 ## Para adicionar nodes, crie o diretório com o comando abaixo alterando nome_projeto para o seu projeto
 mkdir -p /var/rundeck/projects/nome_projeto/etc
 
